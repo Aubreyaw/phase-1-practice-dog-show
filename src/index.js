@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
         };
 
         fetch(`${westminsterUrl}/${currentDogId}`, {
-            method: "GET",
+            method: "PATCH",
             headers: {
                 "Content-Type": "application/json",
                 Accept: "application/json",
